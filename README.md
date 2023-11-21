@@ -1,10 +1,11 @@
 # Webex Room Title Updater
-Update SRE team's Webex Room Title with current on-call engineer username from PagerDuty
+Update SRE team's [Webex](https://web.webex.com/spaces/) Room Title with current on-call engineer username from [PagerDuty](https://www.pagerduty.com/).
 
 ## Overview
 
-This Python script is designed to update the title of a Webex room with information about the on-call engineer retrieved from PagerDuty schedule. 
-It automates the process of reflecting the current on-call engineer in the Webex room title.
+- This Python script is designed to update the title of a Webex room with information about the on-call engineer retrieved from PagerDuty schedule. 
+- It automates the process of reflecting the current on-call engineer in the Webex room title.
+- See the Doc - https://support.pagerduty.com/docs/schedule-basics
 
 ## Flowchart
 ![Flowchart_oncall_engineer.png](Flowchart_oncall_engineer.png)
@@ -68,5 +69,10 @@ All secrets should be put as strings into Jenkins Secrets Manager (**NOT key-val
 In case of PagerDuty schedule id's, put them as **comma-separated string**.
 
 ## Get tokens
-"pagerduty_schedule_ids" - Get ID here https://org.pagerduty.com/schedules/******
-"pagerduty_api_key" - User-level API Token, https://org.pagerduty.com/users/******
+- "pagerduty_schedule_ids" - Get ID here https://org.pagerduty.com/schedules/******
+- "pagerduty_api_key" - User-level API Token, https://org.pagerduty.com/users/******
+
+# Reference
+- https://support.pagerduty.com/docs/schedule-basics
+- https://www.pagerduty.com/resources/learn/call-rotations-schedules/
+- https://response.pagerduty.com/oncall/whos_oncall/
