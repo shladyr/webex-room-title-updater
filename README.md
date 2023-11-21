@@ -3,9 +3,9 @@ Update SRE team's [Webex](https://web.webex.com/spaces/) Room Title with current
 
 ## Overview
 
-This Python script is designed to update the title of a Webex room with information about the on-call engineer retrieved from PagerDuty schedule. 
-It automates the process of reflecting the current on-call engineer in the Webex room title.
-See the Doc - https://support.pagerduty.com/docs/schedule-basics
+- This Python script is designed to update the title of a Webex room with information about the on-call engineer retrieved from PagerDuty schedule. 
+- It automates the process of reflecting the current on-call engineer in the Webex room title.
+- See the Doc - https://support.pagerduty.com/docs/schedule-basics
 
 ## Flowchart
 ![Flowchart_oncall_engineer.png](Flowchart_oncall_engineer.png)
