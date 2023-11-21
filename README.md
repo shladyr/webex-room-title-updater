@@ -68,5 +68,5 @@ All secrets should be put as strings into Jenkins Secrets Manager (**NOT key-val
 In case of PagerDuty schedule id's, put them as **comma-separated string**.
 
 ## Get tokens
-"pagerduty_schedule_ids" - Get ID here https://org.pagerduty.com/schedules/******
-"pagerduty_api_key" - User-level API Token, https://org.pagerduty.com/users/******
+- "pagerduty_schedule_ids" - Get ID here https://org.pagerduty.com/schedules/******
+- "pagerduty_api_key" - User-level API Token, https://org.pagerduty.com/users/******
